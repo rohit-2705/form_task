@@ -11,7 +11,7 @@ function readFormData(){
     var formdata={};
     formdata["FirstName"]=document.getElementById("FirstName").value;
     formdata["LastName"]=document.getElementById("LastName").value;
-    formdata["Address"]=document.getElementById("addressline1").value+","+document.getElementById("addressline2").value;
+    formdata["Address"]=document.getElementById("address").value;
     formdata["pincode"]=document.getElementById("pincode").value;
       if(document.getElementById("male").checked){
     formdata["Gender"]=document.getElementById("male").value;
